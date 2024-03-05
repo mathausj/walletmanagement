@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'homepage.dart';
+import 'report.dart';
+import 'categorypage.dart';
 
 class MyEnvpage extends StatefulWidget {
   @override
@@ -9,9 +12,9 @@ class _MyHomePageState extends State<MyEnvpage> {
   int _selectedIndex = 0;
 
   static const List<Widget> _widgetOptions = <Widget>[
-    Text('Home Page'),
-    Text('Category Page'),
-    Text('Report Page'),
+    HomePage(),
+    Text("catego9rj"),
+    ReportPage(),
   ];
 
   void _onItemTapped(int index) {

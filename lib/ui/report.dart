@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
 
-class MyReport extends StatelessWidget {
+class ReportPage extends StatelessWidget {
+  const ReportPage({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.blue,
         title: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
@@ -37,8 +40,10 @@ class MyReport extends StatelessWidget {
           ],
         ),
       ),
-      body: Center(
-        child: Text('Your Content Here'),
+      body: Container(
+        child: Center(
+          child: Text('Report Page'),
+        ),
       ),
     );
   }
